@@ -16,7 +16,7 @@
     <name>east Framework parent</name>
     <description>east Framework parent</description>
     <packaging>pom</packaging>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
     
     <repositories>
         <repository>
