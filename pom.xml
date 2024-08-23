@@ -15,7 +15,7 @@
     <repositories>
         <repository>
 			<id>high-release</id>
-			<url>http://nexus.highcnc.com/repository/maven-releases/</url>
+			<url>https://nexus.highcnc.com/repository/maven-releases/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -25,7 +25,7 @@
 		</repository>
 		<repository>
 			<id>high</id>
-			<url>http://nexus.highcnc.com/repository/maven-snapshots/</url>
+			<url>https://nexus.highcnc.com/repository/maven-snapshots/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -35,7 +35,7 @@
 		</repository>
         <repository>
 			<id>mvn2</id>
-			<url>http://repo1.maven.org/maven2/</url>
+			<url>https://repo1.maven.org/maven2/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -45,7 +45,7 @@
 		</repository>
 		<repository>
 			<id>egovframe</id>
-			<url>http://maven.egovframe.kr:8080/maven/</url>
+			<url>https://maven.egovframe.kr/maven/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -58,11 +58,11 @@
     <distributionManagement>
         <repository>
             <id>high-releases</id>
-            <url>http://nexus.highcnc.com/repository/maven-releases/</url>
+            <url>https://nexus.highcnc.com/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>high-snapshots</id>
-            <url>http://nexus.highcnc.com/repository/maven-snapshots/</url>
+            <url>https://nexus.highcnc.com/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     
@@ -390,6 +390,12 @@
 	            <classifier>jdk15</classifier>    
 	        </dependency>	        
             <!-- ETC END -->
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.34</version>
+            </dependency>
             
 	    </dependencies>
 	</dependencyManagement>
